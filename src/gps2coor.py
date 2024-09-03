@@ -4,7 +4,7 @@ from sensor_msgs.msg import NavSatFix
 from geometry_msgs.msg import Point
 
 def callback(data):
-    base_lat = 39.89644
+    base_lat = 39.89645
     base_long = 32.77730
 
     rospy.loginfo("Received GPS Fix:")
